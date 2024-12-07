@@ -6,7 +6,7 @@ function makeTransaction(quantity, pricePerDroid, customerCredits) {
     }
     const product = `You ordered ${quantity} droids worth ${totalPrice} credits!`;
     return product;
-};
+}
 
 console.log(makeTransaction(5, 3000, 23000)); 
 console.log(makeTransaction(3, 1000, 15000)); 
